@@ -1,0 +1,9 @@
+printf
+
+"Printf" is a function used to print and format a string by replacing
+specifiers like '%d' for decimals with the given variable. This function takes
+in a String and a x amount of variables based on the amount of '%y' where y is
+the specifier related to the desired data type. An example of this is
+printf("This is an %s", "example") where the function takes in a String 1
+parameter (the String "example") and s is used as it is the specifier for a
+String of characters.  

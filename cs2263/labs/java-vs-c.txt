@@ -1,0 +1,10 @@
+The reason why Java needs to be run with the java command is because the java
+compiler 'javac' does not compile source code into machine code; however, it
+converts source code into Bytecode which is then further compiled by the java
+command. The java command runs a class loader, bytecode verifier and then JIT
+Compiler in a JVM to finally produce machine code which is then run on the
+machine to produce "Hello World". The C compiler compiles machine code therefore
+it does not need to be further compiled and can be run by just entering the file
+name.
+
+Source: https://www.geeksforgeeks.org/compilation-execution-java-program/ 

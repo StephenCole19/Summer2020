@@ -1,0 +1,27 @@
+Von Neumann Architecture
+
+John von Neumann published Von Neumann Architecture in 1945. His architecture
+was made up of 4 main parts an Input Device, an Output Device, a Memory Unit
+and finally a Central Processing Unit which consists of a Control Unit, an
+Arithmetic Unit and a suite of 5 registers. These registers include Memory
+Address Registers(MAR), Memory Data Registers(MDR), Accumulators(AC), Program
+Counters(PC) and Current Instruction Registers(CIR). The control unit is
+responsible for controlling the Arithmetic and Logic Unit, Memory as well as
+input and output devices. In addition to the aforementioned parts Von Neuman
+Architecture also uses a standard CPU system bus which is comprised of a
+control bus, data bus amd address bus. All of which are used to transmit data
+between parts of the computer or between internal components of the Central
+Processing Unit.
+
+Source: https://www.computerscience.gcse.guru/theory/von-neumann-architecture
+
+Stored Program Concept  
+
+The stored program concept refers to storing instructions in memory to allow
+tasks to be performed in sequence or intermittenly. This concept was introduced
+by John von Neumann for the purpose that "instructions could be modified by the
+computer as determined by intermediate computational results". Being able to
+alter these instructions allowed for much more complex programs that could make
+use of multiple computations allowing computers to be more versatile.  
+
+Source: https://www.britannica.com/technology/stored-program-concept 
