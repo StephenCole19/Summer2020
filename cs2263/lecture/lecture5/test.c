@@ -4,6 +4,6 @@
 int main(int argc, char* argv[]){
 	int low = 0;
 	low = min(2, 4);
-	printf("%d", low);
+	printf("%d\n", low);
 	return EXIT_SUCCESS;
 }
