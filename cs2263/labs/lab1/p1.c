@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* p1.c */
+=======
+>>>>>>> a2d761084b61a1cd36e7ed736cd9be6ae2f5a5bd
 #include <stdio.h>
 #include <stdlib.h>
 int g1(int a, int b)
