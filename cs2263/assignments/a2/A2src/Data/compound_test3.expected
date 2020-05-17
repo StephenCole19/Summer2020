@@ -1,0 +1,22 @@
+failed peek
+failed peek
+failed pop
+5
+5
+5
+10000
+invalid instruction d
+invalid instruction p
+11100
+10010
+201
+-10
+-10
+-10
+201
+Successfully executed 11 instructions
+|_ 10000 _|
+|_ 11100 _|
+|_ 10010 _|
+|_ 201 _|
+4 elements
