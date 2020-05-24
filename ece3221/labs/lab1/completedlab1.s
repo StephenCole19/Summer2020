@@ -5,15 +5,8 @@ br  Start
 /***
 ECE3221 LAB#1 - MY FIRST NIOS-II PROGRAM                        
 ----------------------------------------------- 
-DATE:	 		    NAME:
+DATE:22/05/2020 	NAME: Stephen Cole
 ----------------------------------------------- 
-This program reads a value from 16 switches 
-and writes the value to 16 LEDs     
------------------------------------------------
-PORT MAP
-0x10000000 = 16-bit output port = RED LEDS 
-0x10000040 = 16-bit input port  = SWITCHES 
------------------------------------------------
 ***/
 .org 0x100
 Start:
