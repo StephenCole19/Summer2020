@@ -16,4 +16,8 @@ void freeString(char* s);
 // should call mallocString(), and then strcpy()
 char* duplicateString(char* s);
 
+int fputString(FILE* pFOut, char* s);
+
+char* fgetString(FILE* pFIn);
+
 #endif

@@ -3,6 +3,8 @@
 #include <string.h>
 #include "Strings.h"
 
+#define MAX_STRING_LENGTH 100
+
 char* mallocString(int stringsize){
     char *strMem = (char *)malloc(sizeof(char) * stringsize);
 
@@ -39,3 +41,36 @@ char *duplicateString(char *s){
 
     return dupeString;
 }
+
+int fputString(FILE* pFOut, char* s)
+{
+	int i;
+	
+	for(i=0; i<MAX_STRING_LENGTH; i++)
+	{	
+		if(s[i] == '\n')
+		{
+			fprintf(pFOut, "%d\n", i);
+                        break;
+		}
+
+		fprintf(pFOut, "%c", s[i]);
+	}
+	return i;	
+}
+
+char* fgetString(FILE* pFIn)
+{	
+	char* str;
+	str = mallocString(MAX_STRING_LENGTH);
+	
+	if( fgets(str, 100, pFIn) == NULL)
+		return NULL;
+	
+	char* dupStr;
+	dupStr = duplicateString(str);	
+	free(str);
+		
+	return dupStr;
+}
+
