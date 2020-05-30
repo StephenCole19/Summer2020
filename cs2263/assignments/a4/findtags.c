@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
 	char** inputArr = (char**)malloc(numLines*sizeof(char*));
 	instantiateInputArray(inputArr, line, fp);
 		
-	char** tagTable = (char**)malloc(MAX_NUM_TAGS);
+	char** tagTable = (char**)malloc(MAX_NUM_TAGS*sizeof(char*));
 	for(int i=0;i < MAX_NUM_TAGS;i++){
 		tagTable[i] = (char*)malloc(MAX_TAG_SIZE);
 	}
@@ -69,7 +69,7 @@ int main(int argc, char* argv[])
 		}
 	}	
 
-	char** foundTags = (char**)malloc(MAX_TYPE_TAGS);
+	char** foundTags = (char**)malloc(MAX_TYPE_TAGS*sizeof(char*));
 	for(int i=0;i < MAX_TYPE_TAGS;i++){
 		foundTags[i] = (char*)malloc(MAX_TAG_SIZE);
 	}

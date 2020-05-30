@@ -50,7 +50,7 @@ int fputString(FILE* pFOut, char* s)
 	{	
 		if(s[i] == '\n')
 		{
-			fprintf(pFOut, "%d\n", i);
+			fprintf(pFOut, " %d\n", i);
                         break;
 		}
 

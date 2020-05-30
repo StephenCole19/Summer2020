@@ -9,7 +9,8 @@ int fac(int n) {
 }
 
 int main(int argc, char* argv[]){
-	int x = 3;
+	int x = 15;
 	int f = fac(x);
 	printf("%d\n", f); // RL1
+	return 0;
 }

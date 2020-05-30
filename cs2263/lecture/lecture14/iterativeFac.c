@@ -12,7 +12,7 @@ int fac2(int n) {
 }
 
 int main(int argc, char* argv[]){
-	int x = 3;
+	int x = 15;
 	int f = fac2(x);
 	printf("%d\n", f); // RL1
 }
