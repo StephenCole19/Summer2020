@@ -74,33 +74,33 @@ ori r18,r0,8 # r7 = number of loops
 movia r16,counts_per # set top of array
 movia r20,lookup_table # set top of lookup_table
 
-ldbio r23,(r8)
+ldbio r23,(r8) # load byte from switches
 
-bne r23,r0,histogram
+bne r23,r0,histogram # if switch is not pressed display
 br top
 
 histogram:
 ldw r17,(r16)
-cmpeq r19,r3,r7
-add r17,r17,r19
-stw r17,(r16)
-bne r19,r0,lookup_hex
+cmpeq r19,r3,r7 # if r3 == r7 cmpeq = 1
+add r17,r17,r19 # increment r17 if r3 == r7
+stw r17,(r16) 
+bne r19,r0,lookup_hex # branch unless r19 == 0
 addi r7,r7,1 # increment loop count
 addi r16,r16,4 # increment index of array
 bne r18,r7,histogram # branch to histogram if r7 is not 8
 
 lookup_hex:
-beq r7,r0,display_hex
-addi r20,r20,1
+beq r7,r0,display_hex # if value is 0 go to display
+addi r20,r20,1 # increment to find correct 7seg value
 addi r7,r7,-1 # decrement loop count
 bne r7,r0,lookup_hex # branch to loop4 if r7 is not zero
 
 display_hex:
 ldb r21,(r20)# load 7seg hex from lookup table
 slli r22,r22,8 # move last 7seg value over
-or r22,r22,r21 # set 
-andi r22,r22,0xFFFF
-stwio r22,(r9)
+or r22,r22,r21 # add new value
+andi r22,r22,0xFFFF # force all but last two values to low
+stwio r22,(r9) # send to 7seg
 br top
 
 
