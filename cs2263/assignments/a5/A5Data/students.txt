@@ -1,0 +1,27 @@
+0.1 0.1 Dante Parker
+6.99 6.99 Tamir Rice
+2.3 4.5 Eric Garner
+0 0 Phillip White
+0.0 4.2 Minnijean Brown
+4.2 0.0 Elizabeth Eckford
+7.0 4.2 Ernest Green
+4.2 7.0 Thelma Mothershed
+0.1 0.2 Melba Patillo
+7 7 Gloria Ray
+1.5 -5.2 Terrence Roberts
+0.2 0.2 Jefferson Thomas
+4 4 Carlotta Walls
+6.99 6.99 Daisy Gaston Bates
+1.2 3 Addie Mae Collins
+8.2 12.3 Cynthia Wesley
+0.3 14.9 Carole Robertson
+2.1 4.5 Carol Denise McNair
+3.1 6.5 Rosa Parks
+5.1 4.6 Eric Harris
+7.1 2.2 Walter Scott
+8.3 10.9 William Chapman II
+4.2 8.1 Alonzo Smith
+9.6 4.4 Alteria Woods
+4.7 5.3 Jordan Edwards
+5.3 6.8 Eric Reason
+ 
