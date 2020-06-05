@@ -1,5 +1,5 @@
 busAssignment: readRoutes.c PointList.c Point2D.c BusRoute.c Student.c
-	gcc -o busAssignment -Wall readRoutes.c PointList.c Point2D.c BusRoute.c Student.c
+	gcc -lm -std=c99 -o busAssignment -Wall readRoutes.c PointList.c Point2D.c BusRoute.c Student.c
 
 test: sample_test
 
