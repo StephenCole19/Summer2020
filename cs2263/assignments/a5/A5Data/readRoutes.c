@@ -74,11 +74,18 @@ int main(int argc, char** argv)
 					shortestDistance = currentDistance;
 				}
 			}
-
+			
 		}
 
 		printf("%s\tShould be assigned to %s", stud->name, routes[routeIndex]->routeName);
+		free(stud);
 	}
+	
+	for(int i=0; i<numRoutes; i++)
+		free(routes[i]);
+
+	free(routes);	
+	
 
 	return 0;
 }
