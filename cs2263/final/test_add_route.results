@@ -1,0 +1,2 @@
+All bus routes and stops will be refered to by the index printed to their left
+Choice (1=Add Route, 0=Remove Route, 2=Add Stop, 3=Remove Stop, 4=Save, 5=List): What is name of the route? (Two words): Choice (1=Add Point, 0=End loop): Enter a bus stop in the format x y: Choice (1=Add Point, 0=End loop): Choice (1=Add Route, 0=Remove Route, 2=Add Stop, 3=Remove Stop, 4=Save, 5=List): 
