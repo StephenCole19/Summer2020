@@ -28,4 +28,4 @@ test_save: routeEditor
 	./TestPassed.sh ./routes.txt ./routes1.txt
 
 clean:
-	rm *.o *.results
+	rm *.results
